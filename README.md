@@ -35,6 +35,20 @@ Thank you
 
 A C# console application that solves the sprinkler assignment requirements.
 
+## Problem Visualization
+
+![Problem Visualization](img/problem%20visulaization.png)
+
+The image above shows the room layout with ceiling coordinates and water pipe positions.
+
+## Solution Result
+
+![Result](img/result.png)
+
+The result image displays the calculated sprinkler positions and their connections to the nearest water pipes.
+
+[View detailed results](result.txt)
+
 ## How to Run
 
 ```bash
@@ -44,4 +58,5 @@ dotnet run
 ## Project Structure
 
 - `Program.cs` - Main application file
-- `.gitignore` - Git ignore rules for C# projects
+- `RV.cs` - Room vertex and geometric calculation utilities to visualize the problem in unity gameengine
+- `.gitignore` - Git ignore rules for C# and Unity projects
